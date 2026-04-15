@@ -78,4 +78,4 @@ The static site mirrors the ZIP's folder structure exactly (`site_path = html_zi
 
 ### Dataverse table
 
-Target table `bb_coursecontents` with `bb_contentid` as Alternate Key. Loaded via Power Automate Dataflow (recommended) or Flow. Connected to Copilot Studio via Knowledge → Dataverse, mapping `bb_title` → Title, `bb_bodytext` → Content.
+Target table `bb_coursecontents` with `bb_contentid` as Alternate Key. Loaded via Power Automate Dataflow (recommended) or Flow. Connected to Copilot Studio via Knowledge → Dataverse, mapping `bb_title` → Title, `bb_text` → Content.
