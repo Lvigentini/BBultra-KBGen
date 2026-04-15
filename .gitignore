@@ -1,0 +1,20 @@
+# Blackboard Ultra export ZIPs — these can be large and are institution-specific
+src/
+
+# Generated outputs — rebuilt by running the pipeline
+outputs/
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor / OS artefacts
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# Claude Code session data
+.claude/
